@@ -1,0 +1,21 @@
+#Versão da sintaxe da composição do docker
+version: '3.9'
+
+#Serviços necessários para o app
+services:
+  #app é o que executará o nosso arquivo Docker
+  app:
+    #Contexto de composição e o diretório atual. O ponto usa o diretório atual do qual estamos executando
+    build:
+      context:  .
+      args:
+        - DEV=true
+     #Mapeamento de porta em nossa máquina local p/ a porta dentro de nosso contêiner do docker
+    ports:
+      - "8000:8000"
+     #Mapeia diretórios de nosso sistema para o contêiner do docker
+    volumes:
+      - ./app:/app
+     #Usado para executar o serviço
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000" 

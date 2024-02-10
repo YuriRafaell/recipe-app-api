@@ -1,0 +1,3 @@
+- VSCode
+- Docker for linux
+- Git

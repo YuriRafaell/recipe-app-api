@@ -1,0 +1,5 @@
+- Iremos produzir apenas o backend da aplicação, utilizando API's
+- Vamos utilizar Python para a criação das API's
+- Iremos utilizar também o Django como framework
+- Create an advanced REST API with Python, Django REST Framework and Docker using Test 
+Driven Development (TDD)

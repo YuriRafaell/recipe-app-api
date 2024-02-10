@@ -1,0 +1,4 @@
+- Vamos utilizar o Docker, então na máquina precisa do recurso de virtualização apropriados.
+- Melhor utilizar o windows
+  1. Precisa instalar o gerenciador de pacotes Chocolate: https://chocolatey.org/install
+- E uma conta no GitHub

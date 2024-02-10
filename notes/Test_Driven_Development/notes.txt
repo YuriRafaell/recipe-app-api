@@ -1,0 +1,5 @@
+- O que são testes de unidade?
+É simplesmente um código, que testa o código do seu projeto.
+
+- O que é desenvolvimento orientado a testes? TDD
+É a prática de desenvolvimento.
